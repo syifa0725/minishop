@@ -1,16 +1,35 @@
-# React + Vite
+# MiniShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MiniShop adalah aplikasi toko online sederhana yang dibuat menggunakan ReactJS sebagai project pembelajaran.
 
-Currently, two official plugins are available:
+## Teknologi yang Digunakan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ReactJS
+- Vite
+- React Router
+- Context API
+- Tailwind CSS
+- Fake Store API
+- LocalStorage
+- Vitest
 
-## React Compiler
+## Fitur Aplikasi
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Menampilkan daftar produk
+- Pencarian produk
+- Filter berdasarkan kategori
+- Pagination
+- Detail produk
+- Keranjang belanja
+- Menambah dan mengurangi jumlah produk
+- Login dan Register
+- Protected Route
+- Penyimpanan data menggunakan LocalStorage
+- Mengambil data produk dari Fake Store API
 
-## Expanding the ESLint configuration
+## Cara Menjalankan Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+```bash
+npm install
